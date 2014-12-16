@@ -10,7 +10,6 @@
     font-weight: normal;
     font-weight: 400;
     font-style: normal;
-
 }
 
 /* Bold */
@@ -24,9 +23,9 @@
     font-weight: bold;
     font-weight: 700;
     font-style: normal;
-
 }
 
+/* Regular */
 @font-face {
   font-family: 'Andada';
   src:  url('Andada.eot'), /* IE9 Compatibility Modes */
@@ -36,9 +35,9 @@
         url('Andada.svg#svgGraublauweb') format('svg'); /* Legacy iOS */
   font-weight: 400;
   font-style: bold;
-
 }
 
+/* Regular */
 @font-face {
     font-family: 'pacificoregular';
     src: url('/wp-content/fonts/Pacifico-webfont.eot');
@@ -49,5 +48,4 @@
     font-weight: normal;
     font-weight: 400;
     font-style: normal;
-
 }

@@ -23,13 +23,15 @@ require.config({
         masonry: '../app/js/vendor/masonry.pkgd.min',
         _common: '../app/js/modules/_common',
         _nav: '../app/js/modules/_nav',
-        _formpages: '../app/js/modules/_formpages'
+        _formpages: '../app/js/modules/_formpages',
+        owl: '../app/js/vendor/owl'
     },
     shim: {
       'jquery': {
           exports: '$'
       },
-      'mediaelement' : ['jquery']
+      'mediaelement' : ['jquery'],
+      'owl' : ['jquery']
     }
 });
 

@@ -52,12 +52,10 @@ body {
 
 p {
     font-size: $medium-font;
-    line-height: 25px;
     font-weight: normal;
 
     @include media($small-medium) {
         font-size: $small-font;
-        line-height: em(22);
     }
 }
 
@@ -65,6 +63,7 @@ h1 {
     font-weight: bolder;
     font-size: $x-large-font;
     margin-bottom: 5px;
+    font-family: 'Open Sans';
 }
 
 h2 {
@@ -72,11 +71,19 @@ h2 {
     margin-bottom: 0;
     font-size: $large-font;
     font-weight: 200;
+    font-family: 'Andada';
 }
 
 h3 {
     font-size:  $medium-font;
     font-weight: bold;
+    font-family: 'Open Sans';
+}
+
+h4 {
+    font-size:  $small-font;
+    font-weight: bold;
+    font-family: 'Open Sans';
 }
 
 a {
