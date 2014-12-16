@@ -1,0 +1,53 @@
+/* Regular */
+@font-face {
+    font-family: 'Open Sans';
+
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold-webfont.eot');
+    src: url('fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Andada';
+  src:  url('Andada.eot'), /* IE9 Compatibility Modes */
+        url('Andada.eot?') format('eot'),  /* IE6-IE8 */
+        url('Andada.woff') format('woff'), /* Modern Browsers */
+        url('Andada.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('Andada.svg#svgGraublauweb') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: bold;
+
+}
+
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('/wp-content/fonts/Pacifico-webfont.eot');
+    src: url('/wp-content/fonts/Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/fonts/Pacifico-webfont.woff') format('woff'),
+         url('/wp-content/fonts/Pacifico-webfont.ttf') format('truetype'),
+         url('/wp-content/fonts/Pacifico-webfont.svg#pacificoregular') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+
+}
