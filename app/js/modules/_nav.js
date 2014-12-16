@@ -14,7 +14,7 @@ define(['jquery'], function($) {
 
       jQuery('#content').toggleClass('is-disabled');
 
-      jQuery('nav').css('opacity', 0);
+      jQuery('nav').css('display', 'none');
 
     } else {
       //open mobile drawer
@@ -23,7 +23,7 @@ define(['jquery'], function($) {
 
       // jQuery('#content').css('min-height', jQuery(window).height());
 
-      jQuery('nav').css('opacity', 1);
+      jQuery('nav').css('display', 'block');
 
       //set the width of primary content container -> content should not scale while animating
       // var contentWidth = jQuery('#content').width();
